@@ -36,7 +36,7 @@ export function TaskItem({ name, isCompleted }: Props) {
         <Ionicons
           name="close-circle"
           size={24}
-          color={isCompleted ? "#7e7e7e" : "red"}
+          color={isCompleted ? "#7e7e7e" : "#e45b4d"}
         />
       </TouchableOpacity>
     </View>
